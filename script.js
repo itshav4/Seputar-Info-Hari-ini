@@ -34,6 +34,7 @@ function nextStep() {
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
             Aku tak bisa lagi menahan perasaan ini, jadi aku harus memberitahumu...<br><br>
             Kamu adalah alasan aku tersenyum setiap hari. Kamu adalah orang yang selalu ada dalam pikiranku.<br><br>
+            Setelah aku tau namu kamu disitu rasanya aku ingin menyatakan cinta....<br><br>
             AND I Have crush on you (k), but being your gf is not in my list 💖
         `;
         message.classList.add("revealed");
