@@ -33,7 +33,7 @@ function nextStep() {
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
             Aku tak bisa lagi menahan perasaan ini, jadi aku harus memberitahumu...<br><br>
             Kamu adalah alasan aku tersenyum setiap hari. Kamu adalah orang yang selalu ada dalam pikiranku.<br><br>
-            AND I Have crush on you kartika, but being your gf is not in my list. I need to focus on myself frist and tehn let's meet again with the best version of us? 💖
+            AND I Have crush on you kartika, but being your gf is not in my list 💖
         `;
         message.classList.add("revealed");
         acceptButton.classList.remove("hidden-button");  // Menampilkan tombol "Terima Confession"
@@ -51,7 +51,6 @@ function acceptConfession() {
         Terima kasih telah menerima perasaanku...<br><br>
         Aku berjanji akan membuatmu bahagia setiap hari, karena kamu adalah segalanya bagiku.<br><br>
         Bersamamu adalah impian yang ingin kujalani selamanya. 💖💐💐
-        I LOVE YOU 💐💐❤️
     `;
     acceptMessage.classList.add("revealed");
     acceptButton.style.display = "none";  // Menghilangkan tombol setelah menerima confession
