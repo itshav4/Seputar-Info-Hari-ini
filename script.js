@@ -24,11 +24,11 @@ function nextStep() {
         revealButton.innerHTML = "Ya, aku siap!";
     } else if (step === 7) {
         confessionText.innerHTML = "Baiklah... Ini dia...";
-        revealButton.innerHTML = "Klik untuk melihat pengakuan";
+        revealButton.innerHTML = "Coba Pencet Pliss 💐💝";
     } else if (step === 8) {
         revealButton.style.display = "none";  // Menghilangkan tombol setelah klik terakhir
         message.innerHTML = `
-            Aku mencintaimu...<br><br>
+            I HAVE CRSUH on YOU (K)<br><br>
             Sejak pertama kali aku melihat kamu, saat itu kamu nonton turnamen dan aku yang saat itu bermain melawan sekolah kamu.<br><br>
             Dan saat itu aku ingin berkenalan dengan kamu namun ngga berpapasan, Namun saat MPLS aku melihat perempuan yang aku cari.<br><br>
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
