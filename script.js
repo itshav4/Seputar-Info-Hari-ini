@@ -8,7 +8,7 @@ function nextStep() {
 
     if (step === 0) {
         confessionText.innerHTML = "Setiap hari bersamamu selalu menjadi momen yang tak terlupakan...";
-        revealButton.innerHTML = "Klik lagi";
+        revealButton.innerHTML = "NEXT YAA CANTIK";
     } else if (step === 1) {
         confessionText.innerHTML = "Aku mencoba menahan perasaan ini, tapi semakin hari semakin sulit...";
     } else if (step === 2) {
