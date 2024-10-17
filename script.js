@@ -51,8 +51,7 @@ function acceptConfession() {
     
     acceptMessage.innerHTML = `
         Terima kasih telah menerima perasaanku...<br><br>
-        Aku berjanji akan membuatmu bahagia setiap hari, karena kamu adalah segalanya bagiku.<br><br>
-        Bersamamu adalah impian yang ingin kujalani selamanya. 💖💐💐
+        Aku akan membuatmu gembira setiap hari, karena kamu adalah segalanya bagiku 💖💐💐.<br><br> 
     `;
     acceptMessage.classList.add("revealed");
     acceptButton.style.display = "none";  // Menghilangkan tombol setelah menerima confession
