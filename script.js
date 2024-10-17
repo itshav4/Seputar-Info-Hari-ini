@@ -28,7 +28,7 @@ function nextStep() {
     } else if (step === 8) {
         revealButton.style.display = "none";  // Menghilangkan tombol setelah klik terakhir
         message.innerHTML = `
-            AKU INGIN MENGATAKAN<br><br>
+            Aku mau ngomong <br><br>
             Sejak pertama kali aku melihat kamu, saat itu kamu nonton turnamen dan aku yang saat itu bermain melawan sekolah kamu.<br><br>
             Dan saat itu aku ingin berkenalan dengan kamu namun ngga berpapasan, Namun saat MPLS aku melihat perempuan yang aku cari.<br><br>
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
