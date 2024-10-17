@@ -29,12 +29,12 @@ function nextStep() {
         revealButton.style.display = "none";  // Menghilangkan tombol setelah klik terakhir
         message.innerHTML = `
             Aku mencintaimu...<br><br>
-            Sejak pertama kali aku melihat kamu saat kamu nonton turnamen dan aku yang saat itu bermain melawan sekolah kamu.<br><br>
-            Di saat pertama kali melihat kamu aku langsung jatuh hati, dan beruntung nyaa aku saat MPLS aku melihat kamu dan hati rasanya ingin mengatakan aku cinta.<br><br>
+            Sejak pertama kali aku melihat kamu, saat itu kamu nonton turnamen dan aku yang saat itu bermain melawan sekolah kamu.<br><br>
+            Dan saat itu aku ingin berkenalan dengan kamu namun ngga berpapasan, Namun saat MPLS aku melihat perempuan yang saat itu .<br><br>
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
             Aku tak bisa lagi menahan perasaan ini, jadi aku harus memberitahumu...<br><br>
             Kamu adalah alasan aku tersenyum setiap hari. Kamu adalah orang yang selalu ada dalam pikiranku.<br><br>
-            AND I Have crush on you kartika, but being your gf is not in my list 💖
+            AND I Have crush on you (k), but being your gf is not in my list 💖
         `;
         message.classList.add("revealed");
         acceptButton.classList.remove("hidden-button");  // Menampilkan tombol "Terima Confession"
