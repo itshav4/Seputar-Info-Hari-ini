@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADA AJA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="confession-text" id="confessionText">Ada sesuatu yang harus aku sampaikan...</h1>
+        <button id="revealButton" class="reveal-button" onclick="nextStep()">Klik untuk melanjutkan</button>
+        <p id="message" class="hidden-message"></p>
+        <button id="acceptButton" class="accept-button hidden-button" onclick="acceptConfession()">Terima Confession</button>
+        <p id="acceptMessage" class="hidden-message"></p>
+        <button id="romanticSlideButton" class="romantic-slide-button hidden-button" onclick="showRomanticSlide()">Lanjutkan</button>
+    </div>
+
+    <div class="romantic-slide hidden-slide" id="romanticSlide">
+        <h1>Kata-Kata Terakhir Untukmu</h1>
+        <p id="romanticMessage">
+            Cinta bukan hanya tentang kata-kata, tapi tentang perasaan yang mendalam, tentang setiap momen yang kita bagikan bersama.<br><br>
+            Aku ingin menjadi orang yang membuatmu merasa spesial setiap hari, dengan cinta yang tulus.<br><br>
+            Karena bagiku, kamu adalah alasan aku terbangun dengan senyum di pagi hari, dan alasan aku merasa tambah semangat sekolah.<br><br>
+            aku ingin menjadi orang yang membuatmu merasa tidak sendirian juga, dengan cinta yang masih muda dan penuh dengan kebahagiaan.<br><br>
+            Apapun yang terjadi, aku akan selalu ada di sisimu, karena di hatiku hanya ada kamu... 💖
+        </p>
+        <button id="finalSlideButton" class="final-slide-button hidden-button" onclick="showFinalSlide()">Lanjut ke Pesan Penutup</button>
+    </div>
+
+    <div class="final-slide hidden-slide" id="finalSlide">
+        <h1>Pesan Penutup</h1>
+        <p>
+            Kamu adalah bintang yang bersinar dalam hidupku, satu-satunya yang selalu kuimpikan.<br><br>
+            Mari kita jalani petualangan ini bersama, dengan cinta yang takkan pernah pudar.<br><br>
+            Bersama kita bisa menghadapi apapun, dan cinta kita akan tumbuh semakin kuat setiap harinya.<br><br>
+            Aku mencintaimu lebih dari yang pernah aku temukan cara untuk mengatakannya kepadamu, dan aku ingin menjadi orang yang membuatmu merasa spesial setiap hari. 🌹
+        </p>
+    </div>
+
+    <div class="taskbar hidden-taskbar" id="taskbar">
+        <h2>Taskbar</h2>
+        <p>Selamat, kamu telah menerima pengakuan cinta!</p>
+        <button id="restartButton" onclick="restart()">Mulai Ulang</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
