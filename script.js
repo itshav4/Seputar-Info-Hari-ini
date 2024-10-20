@@ -28,7 +28,7 @@ function nextStep() {
     } else if (step === 8) {
         revealButton.style.display = "none";  // Menghilangkan tombol setelah klik terakhir
         message.innerHTML = `
-            Aku mau ngomong <br><br>
+            Aku mau jujur  <br><br>
             Sejak pertama kali aku melihat kamu, saat itu kamu nonton turnamen dan aku yang saat itu bermain melawan sekolah kamu.<br><br>
             Dan saat itu aku ingin berkenalan dengan kamu namun ngga berpapasan, Namun saat MPLS aku melihat perempuan yang aku cari.<br><br>
             Cara kamu tersenyum, cara kamu bicara, setiap detik yang kuhabiskan denganmu terasa seperti kebahagiaan yang tak tergambarkan.<br><br>
@@ -52,6 +52,7 @@ function acceptConfession() {
     acceptMessage.innerHTML = `
         Terima kasih telah menerima perasaanku...<br><br>
         Aku akan membuatmu gembira setiap hari, karena kamu adalah segalanya bagiku 💖💐.<br><br> 
+        I LOVE YOU (K) 💖💐.<br><br> 
     `;
     acceptMessage.classList.add("revealed");
     acceptButton.style.display = "none";  // Menghilangkan tombol setelah menerima confession
